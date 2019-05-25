@@ -33,3 +33,8 @@
 0:0:0:0:0:0:0:1 - - [26/May/2019:00:30:30 +0700] "GET /css/datatables.css HTTP/1.1" 404 - http-bio-8080-exec-2 0
 0:0:0:0:0:0:0:1 - - [26/May/2019:00:30:42 +0700] "GET /uts/ HTTP/1.1" 200 8144 http-bio-8080-exec-3 38
 0:0:0:0:0:0:0:1 - - [26/May/2019:00:30:43 +0700] "GET /uts/css/datatables.css HTTP/1.1" 304 - http-bio-8080-exec-4 9
+0:0:0:0:0:0:0:1 - - [26/May/2019:00:35:17 +0700] "GET /uts/ HTTP/1.1" 200 8144 http-bio-8080-exec-1 613
+0:0:0:0:0:0:0:1 - - [26/May/2019:00:35:19 +0700] "GET /uts/edit?id=4 HTTP/1.1" 404 967 http-bio-8080-exec-2 3
+0:0:0:0:0:0:0:1 - - [26/May/2019:00:35:31 +0700] "GET /uts/edit?id=4 HTTP/1.1" 404 967 http-bio-8080-exec-3 1
+0:0:0:0:0:0:0:1 - - [26/May/2019:00:36:17 +0700] "GET /uts/edit?id=4 HTTP/1.1" 200 7866 http-bio-8080-exec-1 630
+0:0:0:0:0:0:0:1 - - [26/May/2019:00:36:18 +0700] "GET /uts/css/datatables.css HTTP/1.1" 404 983 http-bio-8080-exec-2 27

@@ -36,7 +36,8 @@ public class BarangServlet extends HttpServlet {
         try {
             switch (action) {
                 case "/":
-                    listBarang(request, response);
+                    index(request, response);
+                    break;
                 case "/new":
                     showNewForm(request, response);
                     break;
@@ -66,6 +67,14 @@ public class BarangServlet extends HttpServlet {
         List<Barang> list = barangDao.listAllBarang();
         request.setAttribute("list", list);
         RequestDispatcher dispatcher = request.getRequestDispatcher("list.jsp");
+        dispatcher.forward(request, response);
+    }
+
+    private void index(HttpServletRequest request, HttpServletResponse response)
+            throws SQLException, IOException, ServletException {
+        List<Barang> list = barangDao.listAllBarang();
+        request.setAttribute("/", list);
+        RequestDispatcher dispatcher = request.getRequestDispatcher("index.jsp");
         dispatcher.forward(request, response);
     }
 

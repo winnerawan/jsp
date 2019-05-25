@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Maven: javax.servlet.jsp:javax.servlet.jsp-api:2.3.1">
+    <archive path="/Users/winnerawan/.m2/repository/javax/servlet/jsp/javax.servlet.jsp-api/2.3.1/javax.servlet.jsp-api-2.3.1.jar" />
+  </library>
+  <library name="Maven: mysql:mysql-connector-java:5.1.30">
+    <archive path="/Users/winnerawan/.m2/repository/mysql/mysql-connector-java/5.1.30/mysql-connector-java-5.1.30.jar" />
+  </library>
+  <library name="Maven: jstl:jstl:1.2">
+    <archive path="/Users/winnerawan/.m2/repository/jstl/jstl/1.2/jstl-1.2.jar" />
+  </library>
+  <library name="Maven: javax.servlet:javax.servlet-api:3.0.1">
+    <archive path="/Users/winnerawan/.m2/repository/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar" />
+  </library>
+</eclipse-userlibraries>
+
